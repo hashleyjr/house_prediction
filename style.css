@@ -142,7 +142,20 @@ li {
   text-align: left;
   font-size: 15px;
 }
+/***********************************************************************
+ *  Estimation
+ **********************************************************************/
+.house-estimation{
+  text-align: left;
+  font-size: 15px;
+  /*show heigh: auto*/
+  height: 50vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
