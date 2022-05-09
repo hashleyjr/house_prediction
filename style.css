@@ -71,7 +71,18 @@ li {
     align-items: center;
     justify-content: center;
 }
-
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box2 {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 5px;
+}
 /***********************************************************************
  *  Grid Panel
  **********************************************************************/
