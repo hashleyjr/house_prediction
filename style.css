@@ -27,8 +27,6 @@ body {
     list-style: none;
     margin:0 8px;
     font-size: 0.7em;
-
-
     align-items: center;
     justify-content: center;
 }
@@ -36,9 +34,12 @@ body {
 @media only screen and (max-width: 600px) {
     .main-nav {
         font-size: 0.5em;
-
         padding: 0;
     }
+}
+.grey-text {
+    color: #4F5D75;
+
 }
 
 .push {
@@ -148,6 +149,7 @@ li {
 .house-estimation{
   text-align: left;
   font-size: 15px;
+  color:#4F5D75;
   /*show heigh: auto*/
   height: 50vh;
   min-width: 100%;
@@ -169,10 +171,9 @@ li {
     background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
     background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
 }
- *  Green Background
- **********************************************************************/
+ 
 .white {
-    background: ##FFFFFF;
+    background: #FFFFFF;
 }
 
 /***********************************************************************
@@ -237,8 +238,8 @@ li {
 
 .footer-basic {
   padding:40px 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  background-color:#4F5D75;
+  color:#ffffff;
 }
 
 .footer-basic ul {
@@ -291,7 +292,7 @@ li {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:#aaa;
+  color:#ffffff;
   margin-bottom:0;
 }
 
