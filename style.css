@@ -83,6 +83,8 @@ li {
     background-color: rgba(0,0,0,.5);
     color: #fff;
     padding: 5px;
+    border-radius:5px;
+
 }
 /***********************************************************************
  *  Grid Panel
@@ -278,7 +280,7 @@ li {
   margin-top:30px;
   text-align: left;
   font-size: 15px;
-  
+
 
 }
 
