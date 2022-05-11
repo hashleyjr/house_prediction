@@ -369,6 +369,40 @@ h1  {
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+
+
+
+.article-content {
+  background: var(--white);
+  padding: 32px 40px;
+  border-radius: 0 10px 10px 0;
+}
+
+.article-title {
+  font-size: 20px;
+  color: var(--very-dark-grayish-blue);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.article-text {
+  color: var(--desaturated-dark-blue);
+  font-size: var(--fs-13);
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.acticle-content-footer {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+}
+
+.author {
+  display:     flex;
+  align-items: center;
+}
 /***********************************************************************
  *  Footer
  **********************************************************************/
