@@ -315,7 +315,7 @@ input[type=submit]:hover {
   /* Ajouter box-sizing */
   box-sizing : border-box;
   color: black;
-  border-radius:5px;
+  border-radius:10px;
   background-color:#f2f2f2;
   padding:20px;
   width: 100%;
@@ -333,7 +333,12 @@ h1  {
   padding: 0px;
 }
 
-
+.container-form:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
 /***********************************************************************
  *  Footer
  **********************************************************************/
