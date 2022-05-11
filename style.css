@@ -178,11 +178,7 @@ li {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-#map_canvas {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px
+
 }
 /***********************************************************************
  *  Estimation
@@ -285,8 +281,8 @@ li {
   margin-top:10px;
   border-radius:10px;
   margin-bottom: 10px;
-  margin-left:60px;
-  margin-right:50px;
+  margin-left:10px;
+  margin-right:10px;
   text-align: center;
   font-size: 30px;
 
