@@ -1,13 +1,14 @@
 # house_prediction
 The objective of our project is to position ourselves as a real estate agency that offers several services, including home price estimation. To do so, we used a database of house prices in the United States from Kaggle:https://www.kaggle.com/datasets/shree1992/housedata. Our home price prediction method was based on a machine learning model: the gradient boosting regressor.
 
-Thus, a user wishing to estimate the price of his potential future house just entered the characteristics of the said house and an estimate of the price will be given. 
+Thus, a user wishing to estimate the price of their potential future house just has to enter the characteristics of the said house and an estimate of the price will be given. 
 
-## Run the app
-To run the app, go to the proper directory on your terminal and do: `export FLASK_APP = app.py`, then do: `flask run`. 
-For a better user experience, it is best to use google chrome or microsoft edge browser to open the application.
+## Run the app without Docker
+To run the app: clone the repository, install the requirements or activate the virtual environment, go to the proper directory on your terminal and do: `export FLASK_APP = app.py`, then do: `python -m flask run` if you are not using the virtual environment or `flask run` if you use the virtual environment. 
+For a better user experience, it is best to use google chrome or microsoft edge browser to open the application. 
 
-## In your terminal
+## Using Docker 
+### In your terminal
 ### To build the image : 
 `docker build -t house_prediction .`
 
