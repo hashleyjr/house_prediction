@@ -162,7 +162,7 @@ li {
 
 .box-map {
     /*background-color: #444;*/
-    background-color:#EF8354;
+    background-color:white;
     padding: 50px;
     margin: 20px;
 }
@@ -259,9 +259,6 @@ main {
 
 
 
-
-
-
 .form {
   background: #fff;
   text-align: center;
@@ -345,8 +342,6 @@ input[type="text"] {
   color: #fff;
   border: 1px solid #666;
 }
-
-
 
 
 
