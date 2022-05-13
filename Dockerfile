@@ -7,6 +7,7 @@ COPY . .
 # Installation of code dependencies
 RUN pip install -r requirements.txt
 RUN pip install sklearn
+RUN pip install pandas
 # Command to be executed when the container is launched
 # CAREFUL - use the special IP 0.0.0.0 inside a container
 CMD ["flask", "run", "--host", "0.0.0.0", "--port", "5000"]
