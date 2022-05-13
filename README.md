@@ -1,5 +1,5 @@
 # house_prediction
-The objective of our project is to position ourselves as a real estate agency that offers several services, including home price estimation. We also have a contact page that writes our contacts information in a database.txt file in order for us to get in touche with our customers.
+The objective of our project is to position ourselves as a real estate agency that offers several services, including home price estimation. We also have a contact page that writes our contacts' information in a database.txt file in order for us to get in touche with our customers.
 To do so, we used a database of house prices in the United States from Kaggle:https://www.kaggle.com/datasets/shree1992/housedata. Our home price prediction method was based on a machine learning model: the gradient boosting regressor.
 
 Thus, a user wishing to estimate the price of their potential future house just has to enter the characteristics of the said house and an estimate of the price will be given. 
