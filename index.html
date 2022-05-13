@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>House Prediction</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="./style.css">
+  <script defer src="./myScript.js"></script>
+
+</head>
+<body>
+  <nav class="zone grey2">
+    <ul class="main-nav">
+        <li><a href="index.html"><img src="./img/logo2.png" alt="Triple H" style="width:190px;height:90px;"></a></li>
+        <li><a href="#estimation">Estimate a property</a></li>
+        <li><a href="#map">Price map</a></li>
+        <li><a href="contact.html">About us</a></li> 
+        <li class="push"><a href="contact.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container zone white"><img src="./img/house.jpg" alt="Triple H" style="width:800px;height:100%;">
+    <div class="centered box2"><a href="#estimation">Estimate a property</a></div>
+
+  </div>
+  <div class="zone white grid-wrapper">
+  
+    <div class="box3 project-pill content wrapper-project">Our estimation method
+      <div class="estimation-text"> 
+        Whether you’re ready to sell or just plain curious, our website provides a first estimation of your property. <br>
+        Our method is based on a machine learning algorithm. <br>
+        We use a Gradient Boosting Regressor trained on a large dataset of houses in the US and we account for many elements of a property that we will ask you about when you enter into our estimation simulator. <br>
+        If you wish to sell and once you have done your online estimation, you can contact us through our <a href="contact.html#contact">Contact page </a> and we will get back to you.
+      </div>
+
+    </div>
+    <div class="box-map zone white" id="map"><img src="./img/House-Prices.gif" ></div>
+    
+    
+    
+
+
+    <!--<div class="box zone"><img src="./img/server_2_2.png"></div>
+
+    <div class="box zone"><img src="./img/monitor_settings_2.png"></div>
+    <div class="box zone"><img src="./img/server_3.png"></div>
+    <div class="box zone"><img src="./img/data_storage_2_2.png"></div>
+    <div class="box zone"><img src="./img/monitor_coding_2.png"></div>
+    <div class="box zone"><img src="./img/desktop_analytics_2.png"></div>
+    <div class="box zone"><img src="./img/server_safe_2.png"></div>-->
+  </div>
+
+  <div class = "house-estimation zone white"> <h1 id="estimation">Estimate your property</h1> </div>
+
+  <main>
+    <div class="stepper">
+      <div class="step--1 step-active">Step 1</div>
+      <div class="step--2">Step 2</div>
+      <div class="step--3">Step 3</div>
+      <div class="step--4">Step 4</div>
+      <div class="step--5">Step 5</div>
+      <div class="step--6">Step 6</div>
+      <div class="step--7">Step 7</div>
+      <div class="step--8">Step 8</div>
+      <div class="step--9">Finish</div>
+    </div>
+    <form class="form form-active">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House city informations
+        </h1>
+  
+        <p class="form--header-text">
+          Tell us more about the city of your house.
+        </p>
+      </div>
+      <select name="city">
+        <option>Choose</option>
+        <option value ="31">Algona</option> 
+        <option value ="9">Auburn</option>
+        <option value ="41">Beaux Arts Village</option>
+        <option value ="3">Bellevue</option>
+        <option value ="28">Black Diamond</option> 
+        <option value ="11">Bothell</option>
+        <option value ="22">Burien</option>
+        <option value ="19">Carnation</option>
+        <option value ="30">Clyde Hill</option> 
+        <option value ="23">Covington</option>
+        <option value ="10">Des Moines</option>
+        <option value ="21">Duvall</option>
+        <option  value ="38">Enumclaw</option> 
+        <option value ="17">Fall City</option>
+        <option value ="12">Federal Way</option>
+        <option value ="24">Inglewood-Finn Hill</option>
+        <option value ="14">Issaquah</option> 
+        <option value ="25">Kenmore</option>
+        <option value ="2">Kent</option>
+        <option value ="13">Kirkland</option>
+        <option value ="7">Lake Forest Park</option> 
+        <option value ="5">Maple Valley</option>
+        <option value ="37">Medina</option>
+        <option value ="27">Mercer Island</option>
+        <option value ="44">Milton</option> 
+        <option value ="26">Newcastle</option>
+        <option value ="16">Normandy Park</option>
+        <option value ="6">North Bend</option>
+        <option value ="40">Pacific</option> 
+        <option value ="42">Preston</option>
+        <option value ="29">Ravensdale</option>
+        <option value ="4">Redmond</option> 
+        <option value ="18">Renton</option>
+        <option value ="8">Sammamish</option>
+        <option value ="36">SeaTac</option>
+        <option value ="1">Seattle</option> 
+        <option value = "0">Shoreline</option>
+        <option value ="32">Skykomish</option>
+        <option value ="20">Snoqualmie</option>
+        <option value ="39">Snoqualmie Pass</option> 
+        <option value ="33">Tukwila</option>
+        <option value ="34">Vashon</option>
+        <option value ="15">Woodinville</option>
+        <option value ="35">Yarrow Point</option>
+      </select><br /> 
+      <button class="form__btn" id="btn-1">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House information basement
+        </h1>
+  
+        <p class="form--header-text">
+          Is there a basement in your house?
+        </p>
+      </div>
+  
+      <label>
+        <input type ="radio" name = "choice" value = "0" \> No <br \>
+        <input type ="radio" name = "choice" value = "1" \> Yes <br \>
+      </label><br />
+        <button class="form__btn" id="btn-2-prev">Previous</button>
+        <button class="form__btn" id="btn-2-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House informations renovated
+        </h1>
+  
+        <p class="form--header-text">
+          Is your house renovated?
+        </p>
+      </div>
+      <label>
+        <input type ="radio" name = "choice" value = "0" \> No <br \>
+        <input type ="radio" name = "choice" value = "1" \> Yes <br \>
+      </label><br />
+        <button class="form__btn" id="btn-3-prev">Previous</button>
+        <button class="form__btn" id="btn-3-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House informations floor
+        </h1>
+  
+        <p class="form--header-text">
+          What is the number of floors in your house?
+        </p>
+      </div>
+      <input type="number" step="0.5" placeholder="Number of floor" />
+      <button class="form__btn" id="btn-4-prev">Previous</button>
+      <button class="form__btn" id="btn-4-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House informations waterfront
+        </h1>
+  
+        <p class="form--header-text">
+          Do you have a waterfront with your house?
+        </p>
+      </div>
+      <label>
+        <input type ="radio" name = "choice" value = "0" \> No <br \>
+        <input type ="radio" name = "choice" value = "1" \> Yes <br \>
+      </label><br />
+        <button class="form__btn" id="btn-5-prev">Previous</button>
+        <button class="form__btn" id="btn-5-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House information view
+        </h1>
+  
+        <p class="form--header-text">
+          Give a score between 0 and 5 for the view
+        </p>
+      </div>
+      <input type="number" placeholder="view" />
+      <button class="form__btn" id="btn-6-prev">Previous</button>
+      <button class="form__btn" id="btn-6-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House information condition
+        </h1>
+  
+        <p class="form--header-text">
+          Give a score between 0 and 5 for the condition
+        </p>
+      </div>
+      <input type="number" placeholder="condition" />
+      <button class="form__btn" id="btn-7-prev">Previous</button>
+      <button class="form__btn" id="btn-7-next">Next</button>
+    </form>
+    <form class="form">
+      <div class="form--header-container">
+        <h1 class="form--header-title">
+          House information size
+        </h1>
+  
+        <p class="form--header-text">
+          Tell us more about the rooms of your house.
+        </p>
+      </div>
+      <input type="number" placeholder="Number of bedrooms" />
+      <input type="number" step="0.25" placeholder="Number of bathrooms" />
+      <input type="text" placeholder="Living square footage" />
+      <input type="text" placeholder="Lot square footage" />
+      <input type="text" placeholder="Square footage above" />
+      <button class="form__btn" id="btn-8">Submit</button>
+    </form>
+    <div class="form--message"></div>
+  </main>
+
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com/l/fr-fr/download"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#estimation">Estimate a property</a></li>
+                <li class="list-inline-item"><a href="contact.html">About us</a></li>
+                <li class="list-inline-item"><a href="https://www.adidas.fr/terms_and_conditions">Terms</a></li>
+                <li class="list-inline-item"><a href="contact.html#contact">Contact</a></li>
+            </ul>
+            <p class="copyright">Triple H © 2022</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
