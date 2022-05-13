@@ -82,5 +82,5 @@ def submit_form():
 	else:
 		return "Something went wrong, try again"
     
-if __name__=="__main__":
-    app.run(port=5000, debug=True)
+#if __name__=="__main__":
+#    app.run(port=5000, debug=True)

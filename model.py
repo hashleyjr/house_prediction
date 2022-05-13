@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 from sklearn.model_selection import train_test_split
-from sklearn import ensemble
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import mean_absolute_error
 
 df = pd.read_csv("dataset/data.csv",parse_dates=True)
@@ -35,7 +35,7 @@ y = df.loc[:,['price']].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state = seed)
 
 # model training
-regressor = ensemble.GradientBoostingRegressor(max_depth=3)
+regressor = KNeighborsRegressor()
 regressor.fit(X_train, y_train.ravel())
 
 y_pred = regressor.predict(X_test)
