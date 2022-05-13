@@ -9,7 +9,7 @@ For a better user experience, it is best to use google chrome or microsoft edge 
 
 ## In your terminal
 ### To build the image : 
-`docker build -t house_prediction`
+`docker build -t house_prediction .`
 
 ### To run the app :
 `docker run -d -p 5000:5000`
